@@ -1,0 +1,25 @@
+{
+  "name": "webpack-test-app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jquery-datepicker": "^1.12.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  }
+}
